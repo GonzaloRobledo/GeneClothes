@@ -50,3 +50,12 @@ document.addEventListener("click", e=>{
         location.href = "trolley.html";
     }
 })
+
+document.addEventListener("keyup", e=>{
+    if(e.keyCode == 13 && e.target.matches("#search")){
+        if(e.target.value != ""){
+            localStorage.setItem("filter",e.target.value);
+            location.href = "specific_garments.html";
+        }
+    }
+})
