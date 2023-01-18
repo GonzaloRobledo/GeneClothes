@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FONT AWESOME-->
+    <script src="https://kit.fontawesome.com/bb2dada181.js" crossorigin="anonymous"></script>
+    <!--My Styles-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Gene Clothes - Product</title>
+</head>
+
+<body class="body-sp-g">
+    <header class="header-index">
+        <div class="fixed-bar">
+            <div class="header-bar">
+                <a href="index.html">
+                    <h2>GeneClothes</h2>
+                    <p>HOMBRE</p>
+                </a>
+                <div>
+                    <input type="search" placeholder="Buscar productos..." id="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <nav id="navTypes" class="none">
+                <ul>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-sp-g">
+        <section class="section-filter"><!--Section filters-->
+            <div id="filter-order">
+                <i class="fa-solid fa-arrow-down"></i>
+                <i class="fa-solid fa-arrow-up"></i>
+                <p>Ordenar</p>
+            </div>
+            <div>
+                <p>Free</p>
+                <input type="checkbox" id="freeCheck">
+            </div>
+            <div id="filter">
+                <i class="fa-solid fa-shuffle"></i>
+                <p>Filtrar</p>
+            </div>
+        </section>
+        <section id="sectionClothing" class="specific-section"><!--Section clothing-->
+            <ul>
+
+            </ul>
+        </section>
+
+        <section id="sectionOrder" class="sectionsFilter" data-on="false"><!--Filter order-->
+            <i class="fa-solid fa-arrow-left"></i>
+            <h2>Order for...</h2>
+            <ul>
+                <li data-price="min">Min price</li>
+                <li data-price="max">Max price</li>
+            </ul>
+        </section>
+
+        <section id="sectionFilter" class="sectionsFilter" data-on="false">
+            <i class="fa-solid fa-arrow-left"></i>
+            <h2>Filter for...</h2>
+            <ul>
+                <li data-filter="min" data-price="2000">Price less than $2000</li>
+                <li data-filter="between" data-pricemin="2000" data-pricemax="4000">Price between $2000 to $4000</li>
+                <li data-filter="max" data-price="4000">Price greater than $4000</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer-index footer-sp-g">
+        <p>Gonzalo Robledo &copy; 2023</p>
+    </footer>
+
+    <script src="script/specific_garments.js" type="module"></script>
+</body>
+
+</html>

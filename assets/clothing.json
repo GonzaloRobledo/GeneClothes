@@ -1,0 +1,22 @@
+{
+    "clothing" : [
+        {"id":1,"type":"diver","price":4000,"description":"Buzo rayado blue","free":false,"popular":true,"reco":false,"interest":true, "img":"https://d3ugyf2ht6aenh.cloudfront.net/stores/001/268/672/products/azul1-fe4d0e03809dafc21716475477811813-1024-1024.jpg"},
+        {"id":2,"type":"pants","price":2000,"description":"Pantalon suelto white","free":true,"popular":true,"reco":false,"interest":true, "img":"https://m.media-amazon.com/images/I/51Yw2oo0QeL._AC_UF894,1000_QL80_.jpg"},
+        {"id":3,"type":"t-shirt","price":5000,"description":"Remera oversize black","free":true,"popular":false,"reco":true,"interest":true,"img":"http://d3ugyf2ht6aenh.cloudfront.net/stores/001/785/816/products/1cf8b722-33e8-4a34-95a9-4dba74bb5fc51-135443f69185db001d16702767674383-640-0.webp"},
+        {"id":4,"type":"t-shirt","price":1000,"description":"Remera al cuerpo white","free":true,"popular":true,"reco":false,"interest":true,"img":"https://www.kdyarg.com.ar/image/0/700_700-Y220260_2000.jpg"},
+        {"id":5,"type":"t-shirt","price":5000,"description":"Remera red","free":true,"popular":false,"reco":true,"interest":false,"img":"https://e7.pngegg.com/pngimages/119/1023/png-clipart-t-shirt-red-crew-neck-sleeve-t-shirt-tshirt-blue-thumbnail.png"},
+        {"id":6,"type":"diver","price":5000,"description":"Buzo sin Capucha yellow","free":true,"popular":false,"reco":true,"interest":false,"img":"https://tommyargentina.vteximg.com.br/arquivos/ids/194955-500-667/MW0MW14745_ZEW_1.jpg?v=637768259757830000"},
+        {"id":7,"type":"short","price":4500,"description":"Short Pink","free":false,"popular":true,"reco":true,"interest":false, "img":"https://sportotalar.vtexassets.com/arquivos/ids/392992-800-auto?v=638031933686400000&width=800&height=auto&aspect=true"},
+        {"id":8,"type":"t-shirt","price":8500,"description":"Buzo yellow","free":true,"popular":true,"reco":true,"interest":true, "img":"https://i.pinimg.com/736x/d5/6a/3c/d56a3c3c7ed4a5d61da01cebca3110d9.jpg"},
+        {"id":9,"type":"pants","price":6600,"description":"Jean Blue","free":false,"popular":true,"reco":false,"interest":false, "img":"https://d2r9epyceweg5n.cloudfront.net/stores/001/325/961/products/2_041174y-3-c630b73a461012cdb116681712309475-640-0.jpg"},
+        {"id":10,"type":"accesory","price":1500,"description":"Reloj de Oro","free":true,"popular":true,"reco":true,"interest":false, "img":"https://cdn2.chrono24.com/images/uhren/26902030-mpxup6eb005jcruym00jysno-ExtraLarge.jpg"},
+        {"id":11,"type":"t-shirt","price":7000,"description":"Chomba pink","free":true,"popular":true,"reco":true,"interest":false,"img":"https://d368r8jqz0fwvm.cloudfront.net/25403-large_default/chomba-de-hombre-cardif-.jpg"},
+        {"id":12,"type":"accesory","price":2999,"description":"Bufanda Orange and Grey","free":true,"popular":false,"reco":true,"interest":false,"img":"https://i.blogs.es/b3aaee/9840500615_2_1_2_15-99/450_1000.webp"},
+        {"id":13,"type":"short","price":9900,"description":"Short Black","free":true,"popular":true,"reco":false,"interest":true,"img":"https://http2.mlstatic.com/D_NQ_NP_888374-MLA43826443166_102020-W.jpg"},
+        {"id":14,"type":"accesory","price":2999,"description":"Tiradores Tirantes Unisex","free":false,"popular":true,"reco":false,"interest":false,"img":"https://i.blogs.es/5c5d70/650_1000_2/450_1000.jpg"},
+        {"id":15,"type":"diver","price":11500,"description":"Buzo Red","free":true,"popular":true,"reco":true,"interest":true,"img":"https://static.dafiti.com.ar/p/lacoste-4017-490049-1-product.jpg"},
+        {"id":16,"type":"diver","price":15000,"description":"Buzo Lakers","free":true,"popular":true,"reco":true,"interest":false,"img":"http://d3ugyf2ht6aenh.cloudfront.net/stores/001/015/914/products/hoodie-lakers-y-11-7cfad801d0fbd2b28716026866611563-640-0.jpg"},
+        {"id":17,"type":"diver","price":10000,"description":"Buzo Everlast","free":false,"popular":true,"reco":false,"interest":true,"img":" https://falabella.scene7.com/is/image/FalabellaAR/3111849_1?wid=800&hei=800&qlt=70"}
+        
+    ]
+}
